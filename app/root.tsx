@@ -4,12 +4,20 @@ import {
   Meta,
   Outlet,
   Scripts,
-  ScrollRestoration
+  ScrollRestoration,
 } from "remix";
 import type { MetaFunction } from "remix";
+import globalStyles from "./styles/global.css";
+
+export const links = () => [
+  {
+    href: globalStyles,
+    rel: "stylesheet",
+  },
+];
 
 export const meta: MetaFunction = () => {
-  return { title: "New Remix App" };
+  return { title: "Sacrament Blessings" };
 };
 
 export default function App() {

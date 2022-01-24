@@ -1,0 +1,18 @@
+.card {
+    padding: 25px;
+    margin: 10px;
+    margin-bottom: 30px;
+    border-radius: 7pt;
+    background-color: #e0e0e0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-width: 300px;
+    max-width: 500px;
+    display: grid;
+    grid-auto-rows: auto;
+
+}
+
+
+} */
